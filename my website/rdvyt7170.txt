@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Status Video Hub</title>
+    <meta name="description" content="Find the perfect status video for your social media profile!">
+    <meta name="keywords" content="status video, whatsapp status, instagram status, tiktok status, social media status">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      body {
+        background-image: url(indian-flag.gif);
+        background-repeat: repeat;
+        background-size: cover;
+        animation: flag-wave 5s infinite linear;
+      }
+      @keyframes flag-wave {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 100% 0;
+        }
+      }
+      /* Theme styles */
+      .theme-dark {
+        background-color: #222;
+        color: #eee;
+      }
+      .theme-dark a {
+        color: #fff;
+      }
+      .theme-dark .logo {
+        color: #fff;
+      }
+      .theme-dark .hero h1 {
+        color: #fff;
+      }
+      .theme-dark .video h3 a {
+        color: #fff;
+      }
+      .theme-dark .category h3 a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body class="theme-dark">
+    <header>
+      <div class="container">
+        <nav>
+          <a href="#" class="logo">Status Video Hub</a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="hero">
+          <h1>Welcome to Status Video Hub</h1>
+          <p>Find the perfect status video for your social media profile!</p>
+          <form action="#" method="GET">
+            <input type="text" placeholder="Search status video...">
+            <button type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="featured-videos">
+          <h2>Featured Videos</h2>
+          <div class="video-grid">
+            <div class="video">
+              <a href="#"><img src="video-thumbnail-1.jpg" alt="Video thumbnail"></a>
+              <h3><a href="#">Funny cat videos</a></h3>
+            </div>
+            <div class="video">
+              <a href="#"><img src="video-thumbnail-2.jpg" alt="Video thumbnail"></a>
+              <h3><a href="#">Romantic status videos</a></h3>
+            </div>
+            <div class="video">
+              <a href="#"><img src="video-thumbnail-3.jpg" alt="Video thumbnail"></a>
+              <h3><a href="#">Motivational status videos</a></h3>
+            </div>
+          </div>
+        </section>
+        <section class="popular-categories">
+          <h2>Popular Categories</h2>
+          <div class="category-grid">
+            <div class="category">
+              <a href="#"><img src="category-icon-1.jpg" alt="Category icon"></a>
+              <h3><
